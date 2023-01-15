@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  comment: MyString
+  time_impression: 2023-01-15 03:46:46
+  date_impression: 2023-01-15
+  client_id: 1
+
+two:
+  comment: MyString
+  time_impression: 2023-01-15 03:46:46
+  date_impression: 2023-01-15
+  client_id: 1

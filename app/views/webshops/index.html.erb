@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Webshops</h1>
+
+<div id="webshops">
+  <% @webshops.each do |webshop| %>
+    <%= render webshop %>
+    <p>
+      <%= link_to "Show this webshop", webshop %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New webshop", new_webshop_path %>

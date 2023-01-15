@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  surname: MyString
+  age: 1
+  sex: MyString
+  date_start_working: 2023-01-15
+  gym_id: 1
+
+two:
+  name: MyString
+  surname: MyString
+  age: 1
+  sex: MyString
+  date_start_working: 2023-01-15
+  gym_id: 1

@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @webshop %>
+
+<div>
+  <%= link_to "Edit this webshop", edit_webshop_path(@webshop) %> |
+  <%= link_to "Back to webshops", webshops_path %>
+
+  <%= button_to "Destroy this webshop", @webshop, method: :delete %>
+</div>
